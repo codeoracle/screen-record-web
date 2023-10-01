@@ -1,0 +1,427 @@
+.singleVideo{
+    // margin-top: 4%;
+    // width: 100%;
+    position: relative;
+    
+.popupWrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #00000051;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    // padding: 90px;
+    height: 102vh;
+
+.emailPopup{
+display: flex;
+flex-direction: column;
+align-items: center;
+// justify-content: center;
+// gap: 60px;
+width: 598px;
+height: 776px;
+border-radius: 24px;
+background: #F2F4F7;
+padding: 40px;
+// overflow: hidden;
+
+.cancelWrap{
+
+    display: flex;
+    justify-content: right;
+    width: 100%;
+
+.cancel{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    }
+}
+
+.sendIcon{
+width: 318px;
+height: 286px;
+margin-bottom: 10%;
+}
+
+.sent{
+color: #08051E;
+text-align: center;
+font-size: 24px;
+font-weight: 400;
+margin-bottom: 10%;
+max-width: 60%;
+
+.userEmail{
+color: #120B48;
+font-weight: 500;
+}
+}
+
+.account{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 40px;
+
+.acctText{
+color: #141414;
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+max-width: 60%;
+}
+.btn{
+display: flex;
+padding: 16px 32px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 8px;
+background:#120B48;
+color:#F9F9FF;
+font-size: 16px;
+font-weight: 500;
+border: none;
+text-decoration: none;
+}
+
+.createAcct{
+color: #7E7E7E;
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+
+.signUp{
+ color: #120B48;
+text-align: center;
+font-size: 16px;
+font-weight: 600;   
+}
+}
+}
+
+}
+}
+
+    .navbar{
+    margin-top: 1.5%;
+    margin-left: 7%;
+    width: 1440px;
+    }
+
+.singleVideoWrap{
+    margin-top: 4%;
+    margin-bottom: 4%;
+ 
+.vidContainer{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .videoDetails{
+        width: 1440px;
+        display: flex;
+        justify-content: flex-start;
+        gap: 64px;
+    
+    .videoLink{
+    display: flex;
+    height: max-content;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 64px;
+    
+    .vidHeader{
+    color: #141414;
+    font-size: 45px;
+    font-weight: 700;
+    }
+    .vidInput{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    
+    .name{
+    color: #727272;
+    font-size: 16px;
+    font-weight: 500;
+    }
+    
+    .vidNameWrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    
+    .vidName{
+    color: #413C6D;
+    font-size: 24px;
+    font-weight: 600;
+    }
+    .edit{
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+    }
+    }
+    }
+    
+    .receiverEmail{
+    display: flex;
+    width: 550px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 24px;
+    border-radius: 16px;
+    border: 0.5px solid #E7E7ED;
+    background: #b6b3c633;
+    
+    .emailInput{
+    color: #434343cc;
+    font-size: 18px;
+    font-weight: 400;
+    outline: none;
+    border: none;
+    background: transparent;
+    width: 100%;
+    }
+    .emailBtn{
+    padding: 10px 18px;
+    border-radius: 8px;
+    background: #605C84;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    border: none;
+    cursor: pointer;
+    }
+    }
+    
+    .vidUrlWrap{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    
+    .vidUrl{
+    color: #141414;
+    font-size: 20px;
+    font-weight: 600;
+    }
+    .urlInputWrap{
+    display: flex;
+    width: 550px;
+    padding: 12px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 16px;
+    border: 0.5px solid #929292;
+    background: #FAFAFA;
+    
+    .urlInput{
+    color: #4B4B4B;
+    font-size: 16px;
+    font-weight: 400;
+    outline: none;
+    border: none;
+    background: transparent;
+    width: 100%;
+    line-height: 25.8px;
+    }
+    .urlBtnWrap{
+    display: flex;
+    padding: 10px 18px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    border: 1px solid #120B48;
+    cursor: pointer;
+    
+    .btnImg{
+    width: 20px;
+    height: 20px;
+    }
+    .urlBtn{
+    color: #120B48;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    }
+    }
+    }
+    }
+    
+    .socialMedia{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    
+    .shareVid{
+    color: #141414;
+    font-size: 20px;
+    font-weight: 600;
+    }
+    .socialWrap{
+    display: inline-flex;
+    align-items: center;
+    align-content: center;
+    gap: 16px;
+    flex-wrap: wrap;
+    
+    .socialBtn{
+    display: flex;
+    padding: 12px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 6px;
+    border: 1px solid #0A0628;
+    cursor: pointer;
+    
+    .socialImg{
+    width: 24px;
+    height: 24px;
+    }
+    .social{
+    color: #08051E;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.16px;
+    }
+    }
+    }
+    }
+    }
+    
+    .videoPreview{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 80px;
+    border-left: 0.5px solid #929292;
+    
+    .video{
+    display: flex;
+    align-items: flex-start;
+    }
+
+    .transcript{
+    display: flex;
+    width: 715px;
+    padding: 0px 100px 0px 40px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    
+    .transcriptHead{
+    color: #000;
+    font-size: 24px;
+    font-weight: 600;
+    }
+    .selectLang{
+    display: flex;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    border-radius: 4px;
+    border: 1px solid #CFCFCF;
+    width: 30%;
+    color: #9D9D9D;
+    font-size: 16px;
+    font-weight: 400;
+    
+    }
+    .transcriptContentWrap{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    height: 240px;
+    width: 90%;
+    overflow-y: scroll;
+    
+    .transcriptContent{
+    display: flex;
+    gap: 30px;
+    
+    .timeSpan{
+    color: #141414;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 151.3%;
+    }
+    .script{
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 163.023%;
+    }
+    }
+    }
+    }
+
+    }
+    }
+}
+
+.accountWrap{
+margin-top: 4%;
+background: #e7e7ed33;
+padding: 30px;
+
+.accountContent{
+display: flex;
+// width: 100%;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 40px;
+
+.accHead{
+color: #141414;
+text-align: center;
+font-size: 24px;
+font-weight: 600;
+}
+.accBtn{
+padding: 16px 32px;
+border-radius: 8px;
+background:#120B48;
+color: #F9F9FF;
+font-size: 16px;
+font-weight: 500;
+border: none;
+cursor: pointer;
+text-decoration: none;
+}
+.signUp{
+color: #7E7E7E;
+text-align: center;
+font-size: 24px;
+font-weight: 600;
+
+.createAct{
+color: #120B48;
+text-decoration-line: underline;
+}
+}
+}
+}
+
+}
+}

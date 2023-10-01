@@ -1,0 +1,66 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  
+
+.navWrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+
+.logoWrap{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    cursor: pointer;
+
+.logoIcon{
+    width: 40px;
+    height: 40px;
+}
+.logo{
+color: #100A42;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+}
+.menuWrap{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 40px;
+color: #000;
+
+.menuList{
+
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+cursor: pointer;
+}
+}
+.btnWrap{
+        text-decoration: none;
+    .btn{
+        // font-family: Sora;
+        color: #120B48;
+        text-align: center;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: bold;
+        line-height: normal;
+        cursor: pointer;
+    }
+}
+}
+}
