@@ -35,7 +35,7 @@ function Register() {
                         <label htmlFor="" className='label'>Password</label>
                         <input type="password" className="formInput" placeholder='Enter your Password'/>
                     </div>
-                    <button className="submit" type='submit'>Sign Up</button>
+                    <button className="submit">Sign Up</button>
             </form>
         </div>
         </div>
