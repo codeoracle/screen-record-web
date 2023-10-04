@@ -13,7 +13,7 @@ const Navbar = () => {
                 <span className="menuList">Features</span>
                 <span className="menuList">How it works</span>
             </div>
-            <Link to={'/'} className="btnWrap">
+            <Link to={'/register'} className="btnWrap">
                 <span className="btn">Get Started</span>
             </Link>
         </div>
