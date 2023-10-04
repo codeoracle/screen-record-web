@@ -3,6 +3,10 @@ import Footer from '../../components/Footer/Footer'
 import './register.scss'
 
 function Register() {
+
+    const handleSubmit = (e) =>{
+        e.preventDefault();
+    }
   return (
     <div className='register'>
         <Link to={'/'} className="logoWrap">
@@ -26,7 +30,7 @@ function Register() {
                 </button>
             </div>
             <div className="loginOr"><span className='line'></span>or<span className='line'></span></div>
-            <form className="loginForm">
+            <form className="loginForm" onSubmit={handleSubmit}>
                     <div className="formDetails">
                         <label htmlFor="" className='label'>Email</label>
                         <input type="email" className="formInput" placeholder='Enter your email address'/>
